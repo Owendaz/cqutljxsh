@@ -1,5 +1,4 @@
 import data from '../../../../public/data.json';
-import Image from 'next/image';
 
 export async function generateStaticParams() {
   return data.departments.map((department) => ({
